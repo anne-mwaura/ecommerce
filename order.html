@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Order</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Place Order</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="order.html">Order</a></li>
+                    <li><a href="signup.html">Signup</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="order">
+            <h2>Your Order</h2>
+            <div id="order-items"></div>
+            <p>Total: $<span id="total-price">0.00</span></p>
+            <button id="confirm-order-button">Confirm Order</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 E-Business. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./dist/order.js"></script>
+</body>
+</html>
